@@ -20,10 +20,6 @@ public class Calc {
 		System.out.println("multiply= " + calc.multiply(a, b) );
 		System.out.println("divide= " + calc.divide(a, b) );
 
-		
-		
 	}
-
-
 
 }
