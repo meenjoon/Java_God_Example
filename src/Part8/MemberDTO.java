@@ -12,7 +12,7 @@ public class MemberDTO {
 	public MemberDTO(String name) {
 		//이름만 알 때
 		this.name = name;
-		System.out.println(name);
+		
 	}
 
 	public MemberDTO(String name, String phone) {
