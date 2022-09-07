@@ -1,4 +1,4 @@
-package Part3;
+package part3;
 
 public  class Car {
 

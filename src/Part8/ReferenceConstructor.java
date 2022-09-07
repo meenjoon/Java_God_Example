@@ -1,4 +1,4 @@
-package Part8;
+package part8;
 
 public class ReferenceConstructor { 
 	public static void main(String[] args) {

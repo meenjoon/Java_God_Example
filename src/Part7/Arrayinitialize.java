@@ -1,4 +1,4 @@
-package Part7;
+package part7;
 
 public class Arrayinitialize {
 	public static void main(String[] args) {

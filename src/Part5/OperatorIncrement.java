@@ -1,4 +1,4 @@
-package Part5;
+package part5;
 
 public class OperatorIncrement {
 	public static void main(String[] args) {

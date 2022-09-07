@@ -1,4 +1,4 @@
-package Part4;
+package part4;
 
 public class PrimitiveTypes {
 	public static void main(String[] args) {

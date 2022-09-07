@@ -1,4 +1,4 @@
-package Part3;
+package part3;
 
 public class Calculator {
 	public static void main(String[] args) {

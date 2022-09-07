@@ -1,4 +1,4 @@
-package Part8;
+package part8;
 
 public class StaticBlcokCheck {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Part7;
+package part7;
 
 public class ArrayLength {
 	public static void main(String[] args) {

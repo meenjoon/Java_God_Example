@@ -1,4 +1,4 @@
-package Part6;
+package part6;
 
 public class ControlWhile {
 	public static void main(String[] args) {

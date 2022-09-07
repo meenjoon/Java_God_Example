@@ -1,4 +1,4 @@
-package Part6;
+package part6;
 
 public class CotrolLabel {
 	public static void main(String[] args) {
