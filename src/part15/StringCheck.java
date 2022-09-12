@@ -1,5 +1,7 @@
 package part15;
 
+import part8.MemberDTO;
+
 public class StringCheck {
 
 	public static void main(String[] args) {
@@ -20,11 +22,14 @@ public class StringCheck {
 //		sample.checkTrim();
 //		sample.checkReplace();
 //		sample.checkFormat();
-//		sample.internCheck();
+		sample.internCheck();
+		
+		/*
 		StringBuilder sb = new StringBuilder();
 		sb.append("Hello");
 		sb.append(" world");
 		System.out.println(sb);
+		*/
 		
 //		System.out.println(sb.append("Hello").append(" world"));
 
@@ -122,10 +127,24 @@ public class StringCheck {
 		String text1= "Java Basic";
 		String text2= "Java Basic";
 		String text3= new String("Java Basic");
-		text3=text3.intern();
+		String text4= new String("Java Basic");
+		MemberDTO obj1 = new MemberDTO("Sangmin");
+		MemberDTO obj2 = new MemberDTO("Sangmin");
+		
+//		text3=text3.intern();
+
 		System.out.println(text1==text2);
 		System.out.println(text1==text3);
+		System.out.println(text3==text4);
+		System.out.println(text1.equals(text2));
 		System.out.println(text1.equals(text3));
+		System.out.println(text3.equals(text4));
+		System.out.println(obj1.equals(obj2));
+//		System.out.println(text1.hashCode());
+//		System.out.println(text2.hashCode());
+//		System.out.println(text3.hashCode());
+//		System.out.println(obj1.hashCode());
+//		System.out.println(obj2.hashCode());
 	}
 	
 
