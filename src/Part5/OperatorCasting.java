@@ -3,7 +3,7 @@ package part5;
 public class OperatorCasting {
 	public static void main(String[] args) {
 		OperatorCasting exam = new OperatorCasting();
-//		exam.casting();
+		exam.casting();
 		exam.casting2();
 	}
 

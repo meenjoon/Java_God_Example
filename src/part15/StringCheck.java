@@ -124,6 +124,8 @@ public class StringCheck {
 	} 
 	
 	public void internCheck() {
+		int a = 2;
+		int b = 3;
 		String text1= "Java Basic";
 		String text2= "Java Basic";
 		String text3= new String("Java Basic");
@@ -132,17 +134,22 @@ public class StringCheck {
 		MemberDTO obj2 = new MemberDTO("Sangmin");
 		
 //		text3=text3.intern();
+		
 
-		System.out.println(text1==text2);
-		System.out.println(text1==text3);
-		System.out.println(text3==text4);
-		System.out.println(text1.equals(text2));
-		System.out.println(text1.equals(text3));
-		System.out.println(text3.equals(text4));
+//		System.out.println(text1==text2);
+//		System.out.println(text1==text3);
+//		System.out.println(text3==text4);
+//		System.out.println(text1.equals(text2));
+//		System.out.println(text1.equals(text3));
+//		System.out.println(text3.equals(text4));
+		System.out.println(obj1==obj2);
 		System.out.println(obj1.equals(obj2));
-//		System.out.println(text1.hashCode());
-//		System.out.println(text2.hashCode());
-//		System.out.println(text3.hashCode());
+		
+		System.out.println(text1.hashCode());
+		System.out.println(text2.hashCode());
+		System.out.println(text3.hashCode());
+		System.out.println(text4.hashCode());
+		
 //		System.out.println(obj1.hashCode());
 //		System.out.println(obj2.hashCode());
 	}
