@@ -1,6 +1,8 @@
 package part7;
 
 public class ArrayLength {
+	
+	
 	public static void main(String[] args) {
 		ArrayLength exam = new ArrayLength();
 		exam.printArrayLength();
