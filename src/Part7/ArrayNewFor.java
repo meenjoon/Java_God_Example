@@ -1,5 +1,7 @@
 package part7;
 
+import java.util.Set;
+
 public class ArrayNewFor {
 	public static void main(String[] args) {
 		ArrayNewFor exam = new ArrayNewFor();
@@ -34,5 +36,6 @@ public class ArrayNewFor {
 		}
 		
 	}
+
 
 }
