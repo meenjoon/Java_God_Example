@@ -8,12 +8,26 @@ public class QueueSample {
 
 	public static void main(String[] args) {
 		QueueSample sample = new QueueSample();
+
+		String cars[] = new String[] {
+				"Tico","Sonata","BMW","Benz"
+				,"Lexus","Mustang","Grandeure"
+				,"The Beetle","Mini Cooper","i30"
+				,"BMW","Lexux","Carnibal","SM5"
+				,"SM7","SM3","Tico" };
 		sample.checkLinkedList1();
 
 	}
 	public void checkLinkedList1() {
 		LinkedList<String> link = new LinkedList<String>();
 //		Iterator iterator = (Iterator) link.iterator();
+		
+//		for(String temp:cars) {
+//			link.add(temp);
+//		}
+//		System.out.println(link.size());
+//		System.out.println(link);
+		
 		
 		link.add("A");
 		link.addFirst("B");
